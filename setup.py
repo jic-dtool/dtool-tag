@@ -21,7 +21,7 @@ setup(
     ],
     entry_points={
         "dtool.cli": [
-            "tag=dtool_annotation.cli:tag",
+            "tag=dtool_tag.cli:tag",
         ],
     },
     download_url="{}/tarball/{}".format(url, version),
