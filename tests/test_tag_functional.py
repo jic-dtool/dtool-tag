@@ -85,7 +85,6 @@ def test_delete_command(tmp_dataset_fixture):  # NOQA
     for line in expected_lines:
         assert result.output.find(line) != -1
 
-
     # Delete one tag.
     result = runner.invoke(tag, [
         "delete",
@@ -103,7 +102,6 @@ def test_delete_command(tmp_dataset_fixture):  # NOQA
     expected = "genome"
     actual = result.output.strip()
     assert actual == expected
-
 
     # Delete the remaining tag.
     result = runner.invoke(tag, [
