@@ -1,4 +1,4 @@
-"""Functional test of 'dtool annotation' CLI command."""
+"""Functional test of 'dtool tag' CLI command."""
 
 from click.testing import CliRunner
 
@@ -18,7 +18,7 @@ def test_tag_basic(tmp_dataset_fixture):  # NOQA
     ])
     assert result.exit_code == 0
 
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "ls",
         tmp_dataset_fixture.uri,
     ])
@@ -60,14 +60,14 @@ def test_delete_command(tmp_dataset_fixture):  # NOQA
     runner = CliRunner()
 
     # Add two tags.
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "set",
         tmp_dataset_fixture.uri,
         "e.coli",
     ])
     assert result.exit_code == 0
 
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "set",
         tmp_dataset_fixture.uri,
         "genome",
@@ -75,7 +75,7 @@ def test_delete_command(tmp_dataset_fixture):  # NOQA
     assert result.exit_code == 0
 
     # Make sure that both tags are present.
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "ls",
         tmp_dataset_fixture.uri,
     ])
@@ -87,14 +87,14 @@ def test_delete_command(tmp_dataset_fixture):  # NOQA
 
 
     # Delete one tag.
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "delete",
         tmp_dataset_fixture.uri,
         "e.coli",
     ])
     assert result.exit_code == 0
 
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "ls",
         tmp_dataset_fixture.uri,
     ])
@@ -106,14 +106,14 @@ def test_delete_command(tmp_dataset_fixture):  # NOQA
 
 
     # Delete the remaining tag.
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "delete",
         tmp_dataset_fixture.uri,
         "genome",
     ])
     assert result.exit_code == 0
 
-    result = runner.invoke(annotation, [
+    result = runner.invoke(tag, [
         "ls",
         tmp_dataset_fixture.uri,
     ])
