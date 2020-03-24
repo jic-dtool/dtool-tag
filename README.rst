@@ -1,13 +1,25 @@
 dtool CLI commands for working with tags
 ========================================
 
+.. image:: https://badge.fury.io/py/dtool-tag.svg
+   :target: http://badge.fury.io/py/dtool-tag
+   :alt: PyPi package
+
+.. image:: https://travis-ci.org/jic-dtool/dtool-tag.svg?branch=master
+   :target: https://travis-ci.org/jic-dtool/dtool-tag
+   :alt: Travis CI build status (Linux)
+
+.. image:: https://codecov.io/github/jic-dtool/dtool-tag/coverage.svg?branch=master
+   :target: https://codecov.io/github/jic-dtool/dtool-tag?branch=master
+   :alt: Code Coverage
+
 
 Installation
 ------------
 
 ::
 
-    $ python setup.py install
+    $ pip install dtool-tag
 
 
 Example usage
