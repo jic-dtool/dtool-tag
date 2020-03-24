@@ -9,6 +9,10 @@ dtool CLI commands for working with tags
    :target: https://travis-ci.org/jic-dtool/dtool-tag
    :alt: Travis CI build status (Linux)
 
+.. image:: https://ci.appveyor.com/api/projects/status/esk2swpyp4l6wmtl?svg=true
+   :target: https://ci.appveyor.com/project/tjelvar-olsson/dtool-tag
+   :alt: AppVeyor CI build status (Windows)
+
 .. image:: https://codecov.io/github/jic-dtool/dtool-tag/coverage.svg?branch=master
    :target: https://codecov.io/github/jic-dtool/dtool-tag?branch=master
    :alt: Code Coverage
