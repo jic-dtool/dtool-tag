@@ -31,6 +31,15 @@ Security
 ^^^^^^^^
 
 
+[0.1.1] - 2021-03-20
+--------------------
+
+Fixed
+^^^^^
+
+- Licence file now included in release thanks to Jan Janssen (https://github.com/jan-janssen)
+
+
 [0.1.0] - 2020-03-24
 --------------------
 
