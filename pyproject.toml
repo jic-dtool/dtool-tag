@@ -16,7 +16,7 @@ dynamic = ["version"]
 dependencies = [
     "click",
     "dtoolcore>=3.17.0",
-    "dtool-cli",
+    "dtool-cli>=0.7.2",
 ]
 
 [project.urls]
