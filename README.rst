@@ -5,6 +5,10 @@ dtool CLI commands for working with tags
    :target: http://badge.fury.io/py/dtool-tag
    :alt: PyPi package
 
+.. image:: https://github.com/jic-dtool/dtool-tag/actions/workflows/test.yml/badge.svg?branch=main
+   :target: https://github.com/jic-dtool/dtool-tag/actions/workflows/test.yml
+   :alt: Tests
+
 .. image:: https://codecov.io/github/jic-dtool/dtool-tag/coverage.svg?branch=main
    :target: https://codecov.io/github/jic-dtool/dtool-tag?branch=main
    :alt: Code Coverage
