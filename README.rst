@@ -5,16 +5,12 @@ dtool CLI commands for working with tags
    :target: http://badge.fury.io/py/dtool-tag
    :alt: PyPi package
 
-.. image:: https://travis-ci.org/jic-dtool/dtool-tag.svg?branch=master
-   :target: https://travis-ci.org/jic-dtool/dtool-tag
-   :alt: Travis CI build status (Linux)
-
 .. image:: https://ci.appveyor.com/api/projects/status/esk2swpyp4l6wmtl?svg=true
    :target: https://ci.appveyor.com/project/tjelvar-olsson/dtool-tag
    :alt: AppVeyor CI build status (Windows)
 
-.. image:: https://codecov.io/github/jic-dtool/dtool-tag/coverage.svg?branch=master
-   :target: https://codecov.io/github/jic-dtool/dtool-tag?branch=master
+.. image:: https://codecov.io/github/jic-dtool/dtool-tag/coverage.svg?branch=main
+   :target: https://codecov.io/github/jic-dtool/dtool-tag?branch=main
    :alt: Code Coverage
 
 
