@@ -44,9 +44,6 @@ def set_tag(dataset_uri, tag):
             config_path=dtoolcore.utils.DEFAULT_CONFIG_PATH
         )
 
-    # Make code Python2 compatible.
-    tag = str(tag)
-
     _validate_name(tag)
 
     dataset.put_tag(tag)
@@ -85,8 +82,5 @@ def delete_tag(dataset_uri, tag):
             uri=dataset_uri,
             config_path=dtoolcore.utils.DEFAULT_CONFIG_PATH
         )
-
-    # Make code Python2 compatible.
-    tag = str(tag)
 
     dataset.delete_tag(tag)
